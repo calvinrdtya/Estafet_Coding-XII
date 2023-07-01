@@ -1,0 +1,402 @@
+/* Navbar */
+.navbar-brand {
+    font: 32px Viga;
+}
+
+.navbar {
+    background-color: #1E1E1E;
+}
+
+
+/* Jumbotron */
+/* .jumbotron {
+    background-color: #1E1E1E;
+    background-size: cover;
+    height: 120%;
+    position: relative;
+    z-index: -1;
+}
+
+.jumbotron .container {
+    color: white;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.display-4 {
+    color: #FF9F0D;
+    font-weight: 400;
+    margin-top: 200px;
+    font-size: 50px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+} */
+
+
+/* Workingspace */
+.working {
+    margin-top: 120px;
+    /* text-align: center; */
+}
+
+.working img {
+    margin-bottom: 20px;
+    width: 80%;
+}
+
+.working h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.working h3 span {
+    font-weight: 500;
+}
+
+.working p {
+    font-size: 18px;
+    color: #ACACAC;
+    font-weight: 200;
+}
+
+.card-1 {
+    margin: 0px px 0px 4px;
+    margin-bottom: 50px;
+}
+  .card-1 p {
+    margin-bottom: 20px;
+    font: 18px Viga ;
+  }
+  
+  .date {
+    font: 20px Viga;
+  }
+
+  .week {
+    margin-left: 10px;
+  }
+
+    .title-card h1 {
+        font-size: 23px;
+        margin-left: 10px;
+        color: #000000;
+        font-weight: bold;
+    }
+
+    .title-card p {
+        margin-left: 10px;
+    }
+
+
+
+  .category {
+      position: relative;
+      padding: 0 15px;
+      margin-bottom: 30px;
+      margin-left: 50px;
+  }
+
+  .bg-1 {
+    height: 120%;
+  }
+
+.title-text h1 {
+    font-size: 50px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+.title-text p {
+    margin-top: 10px;
+    color: #F28123;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    justify-content: center;
+    text-align: center;
+}
+
+.product-view {
+    position: relative;
+    width: 100%;
+    padding: 80px 0px 0px 40px;
+}
+
+.product-view .product-view-top {
+    margin-left: 40px;
+}
+
+.product-view .product-short,
+.product-view .product-price-range {
+    position: relative;
+    width: 70%;
+}
+
+.product-view .product-short .dropdown .dropdown-toggle,
+.product-view .product-price-range .dropdown .dropdown-toggle {
+    display: block;
+    width: 100%;
+    height: 35px;
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid #353535;
+    text-align: left;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all .3s;
+    /* margin-left: -50px; */
+}
+
+.product-view .product-short .dropdown .dropdown-toggle:hover,
+.product-view .product-price-range .dropdown .dropdown-toggle:hover {
+    color: #F28123;
+    border-color: #F28123;
+}
+
+.product-view .dropdown .dropdown-toggle::after {
+    float: right;
+    margin-top: 10px;
+}
+.product-view .pagination {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin: 0;
+}
+
+.product-view .pagination .page-link {
+    color: #353535;
+    background: transparent;
+    border-color: #353535;
+}
+
+.product-view .pagination .page-item:hover .page-link,
+.product-view .pagination .page-item.active .page-link {
+    color: #F28123;
+    background: #FFFFFF;
+}
+
+@media (max-width: 991.98px) {
+.product-view .pagination {
+    margin-bottom: 30px;
+}
+}
+
+.store-blog img {
+    width: 100%;
+    /* margin-left: 40px; */
+    margin-top: 40px;
+}
+
+.sidebar-content {
+    /* margin-top: 30px; */
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.sidebar-title h5 {
+    margin-left: 15px;
+}
+
+.tag {
+    margin: 0px 5px 0px 5px;
+}
+
+.sidebar-widget.tag a {
+    display: inline-block;
+    margin: 0 0 4px 0;
+    padding: 3px 8px;
+    font-size: 14px;
+    color: #353535;
+    background: #ffffff;
+    border: 1px solid #353535;
+    border-radius: 4px;
+    transition: .3s;
+    text-decoration: none;
+}
+
+.sidebar-widget.tag a:hover {
+    color: #ffffff;
+    background: #F28123;
+    border-color: #F28123;
+}
+
+.sidebar-content {
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 70%;
+}
+
+.category-eat {
+    margin-left: 15px;
+}
+
+.team {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.team_ {
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+.img_team img {
+    width: 100%;
+    padding-bottom: 30px;
+    justify-content: center;
+}
+.title_ {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+.footer {
+    position: relative;
+    padding: 30px 0 0 0;
+    background: #1E1E1E;
+}
+
+.footer .footer-widget {
+    position: relative;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.footer .footer-widget h2 {
+    size: 25px Viga;
+    white-space: nowrap;
+    margin-bottom: 20px; 
+    color: #FFFFFF;
+}
+
+.footer .footer-widget ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer .footer-widget ul li {
+    margin-bottom: 5px; 
+    
+}
+
+.footer .footer-widget ul li:last-child {
+    margin-bottom: 0; 
+}
+
+.footer .footer-widget ul li a {
+    color: #FFFFFF;
+    white-space: nowrap;
+    display: block;
+    line-height: 23px;
+    transition: all .3s;
+    text-decoration: none;
+}
+
+.footer .footer-widget ul li a::before {
+    content: '\f105';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    padding-right: 5px;
+}
+
+.footer .footer-widget ul li a:hover {
+    color: #FFFFFF;
+}
+
+.footer .footer-widget ul li a:hover::before {
+    content: '\f101';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+.footer .contact-info p i {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+.footer .contact-info p {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.footer-bottom {
+    height: 50%;
+    padding: 25px 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    color: white;
+    text-align: center;
+  }
+
+.tombol {
+    border-radius: 40px;
+    text-transform: uppercase;
+}
+/* 
+/* RESPONSIVE */
+@media (min-width: 992px) {
+    /* .navbar {
+        padding-top: 20px;
+    }
+    
+    .navbar-brand, .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5)
+    }
+
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after,
+    .nav-link.active::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0B63DC;
+        margin: auto;
+        margin-bottom: -8px;
+        width: 50%;
+        padding-top: 5px;
+    }
+
+
+    .jumbotron {
+        margin-top: -90px;
+        height: 640px;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 5em;
+        margin-top: 150px;
+    }  */
+
+
+    .working {
+        text-align: left;
+    }
+}
+
+.footer-bottom {
+    text-align: center;
+    position: relative;
+    background: #000000;
+}
+.footer-bottom .copyright p {
+    color: #ffffff;
+    font-weight: 400;
+    margin: 0;
+}
+
+@media (max-width: 768.98px) {
+    .footer-bottom .copyright {
+        text-align: center; 
+    } 
+}
+    
